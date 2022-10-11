@@ -4,11 +4,18 @@
     <!-- <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <title>Document</title>
+    <title>Solar System</title>
     <link rel="stylesheet" href="SS.CSS">
     <script src='https://code.jquery.com/jquery-2.2.4.js'></script>  
 </head>
 <body>
+      <audio src="https://www.youtube.com/watch?v=8wLwxmjrZj8&t=78s" id="myAudio"></audio>
+        <button class="sing" onClick="playMyAudio()">Play Audio</button>
+        <script>
+          function playMyAudio(){
+            document.getElementById("myAudio").play();
+          }
+        </script>
      <div style = "position:fixed; left:1250px; top:35px;"id="s" >
         <img id="sun"src="images/sun.png"alt="sun">
      </div>
