@@ -1,0 +1,54 @@
+body {
+    background-image: url("images/background.jpg");
+   }
+
+.input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border: solid 4px rgb(141, 12, 12);
+    background-color: black;
+  }
+.btn {
+    background-color:rgb(141, 12, 12);
+    color: white;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+#d {
+    background-color:rgb(121, 40, 40);
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border: solid 4px black;
+    width: 500px;
+    position : relative;
+    left : 500px;
+    top : 250px;
+}
+h1 {
+    position : relative;
+    padding: 10px;
+    background-color:rgb(141, 12, 12);
+    display: block;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    border: solid 4px black;
+    width: 300px;
+    position : relative;
+    left : 0px;
+    top : 548px;
+}
